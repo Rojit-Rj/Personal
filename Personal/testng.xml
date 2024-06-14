@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+
+<suite name="eBankingAutomation">
+  <test thread-count="5" name="eBanking App Test">
     <classes>
-      <class name="SeleniumProject.Personal.AppTest"/>
+      <class name="runTestcases.testMainpage"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- Test -->  
 </suite> <!-- Suite -->
